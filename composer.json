@@ -1,0 +1,15 @@
+{
+    "name": "rbwebdesigns/quizzerino-installer",
+    "type": "composer-plugin",
+    "description": "Quizzerino composer module installer",
+    "autoload": {
+        "psr-4": { "rbwebdesigns\\quizzerino\\Installer\\": "src" }
+    },
+    "require": {
+        "composer-plugin-api": "^1.0",
+        "composer/composer": "1.0.*@dev"
+    },
+    "extra": {
+        "class": "rbwebdesigns\\quizzerino\\Installer\\Plugin"
+    }
+}
