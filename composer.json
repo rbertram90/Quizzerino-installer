@@ -6,8 +6,8 @@
         "psr-4": { "rbwebdesigns\\quizzerino\\Installer\\": "src" }
     },
     "require": {
-        "composer-plugin-api": "^1.0",
-        "composer/composer": "1.0.*@dev"
+        "composer-plugin-api": "^2.0",
+        "composer/composer": "^2.0"
     },
     "extra": {
         "class": "rbwebdesigns\\quizzerino\\Installer\\Plugin"
